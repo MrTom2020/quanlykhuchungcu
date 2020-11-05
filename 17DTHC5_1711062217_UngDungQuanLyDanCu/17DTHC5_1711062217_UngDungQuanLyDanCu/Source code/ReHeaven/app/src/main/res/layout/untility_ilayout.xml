@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rlutilityclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCamPastel">
+    <TextView
+        android:id="@+id/tvutilityclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Tiện ích"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imgutilityclick"/>
+        <ImageView
+            android:id="@+id/imgutilityclick"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_left"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlSearchUtility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlutilityclick"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/etSearch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtitle"
+            android:layout_toRightOf="@+id/imgSearch1"
+            android:hint="Tìm kiếm" />
+        <ImageView
+            android:id="@+id/imgSearch1"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tvtitle"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_lookup"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_utility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlSearchUtility"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

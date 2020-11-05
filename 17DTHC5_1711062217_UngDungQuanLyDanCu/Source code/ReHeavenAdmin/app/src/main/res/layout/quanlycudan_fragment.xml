@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.quanlycudan.QuanlycudanFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvquanlycudan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="QUẢN LÝ"
+            android:textColor="@color/colorCam"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:id="@+id/rlthemcudan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvquanlycudan"
+            android:background="@color/colorCamPastel"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:id="@+id/etthemcudan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgthemcudan"
+                android:hint="Tìm cư dân" />
+
+            <ImageView
+                android:id="@+id/imgthemcudan"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/icthem"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_resident"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_below="@+id/rlthemcudan"
+            android:layout_marginTop="15dp" />
+    </RelativeLayout>
+
+</LinearLayout>

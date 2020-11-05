@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlutilityitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgavtutility"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_security" />
+
+        <TextView
+            android:id="@+id/tvnameutility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/imgavtutility"
+            android:text="Huỳnh Nhật Linh"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/tvphoneutility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnameutility"
+            android:layout_toRightOf="@+id/imgavtutility"
+            android:text="0329118229"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/tvpositionutility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Bảo vệ"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"/>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/dottedline"
+            android:layout_below="@+id/tvpositionutility"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
