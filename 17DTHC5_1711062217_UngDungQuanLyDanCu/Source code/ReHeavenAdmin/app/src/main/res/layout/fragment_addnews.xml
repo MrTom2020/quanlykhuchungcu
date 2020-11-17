@@ -16,7 +16,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_toRightOf="@+id/imgarrowthemtin"
-            android:text="Tạo tin tức"
+            android:text="@string/taotintuc"
             android:textColor="@color/colorCam"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -41,7 +41,7 @@
                 android:id="@+id/etthemtin1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="  Soạn văn bản tin tức bạn cần thông báo" />
+                android:hint="@string/soanthaovanban" />
 
         </RelativeLayout>
 
@@ -62,7 +62,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:background="@color/colorCam"
-            android:text="Đăng"
+            android:text="@string/dangtin"
             android:textColor="@color/colorWhite" />
 
     </RelativeLayout>

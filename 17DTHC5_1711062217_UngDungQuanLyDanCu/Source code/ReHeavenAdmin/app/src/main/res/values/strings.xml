@@ -3,6 +3,23 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Trang chủ</string>
     <string name="title_dashboard">Nhắn tin</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="taikhoan">Tài khoản</string>
+    <string name="taotintuc">Tạo tin tức</string>
+    <string name="dangtin">Đăng tin</string>
+    <string name="timkiem">Tìm kiếm</string>
+    <string name="nhantin">Nhắn tin</string>
+    <string name="vechungtoi">Về chúng tôi</string>
+    <string name="chungtoithuthap">Chúng tôi thu thập những thông tin gì?</string>
+    <string name="chungtoithuthap2">- Chúng tôi thu thập những thông tin từ hồ sơ khách hàng và hợp đồng mua bán của cư dân.</string>
+    <string name="chungtoithuthap3">- Chúng tôi có thể thu thập các thông tin như tên thiết bị, hệ điều hành, kích cỡ màn hình, ngôn ngữ, vị trí.</string>
+    <string name="chungtoithuthap4">Chúng tôi sử dụng những thông tin của bạn để làm gì?</string>
+    <string name="thuthap">- Chúng tôi thu thập những thông tin từ hồ sơ khách hàng và hợp đồng mua bán của cư dân.</string>
+    <string name="banner1">RE-HEAVEN - Ứng dụng nội bộ được phát triển nhằm hổ trợ cho Ban Quản Lý Chung cư hiện đang công tác và Cư dân đang sinh sống tại Chung cư.</string>
+    <string name="banner2">Ứng dụng luôn cập nhật các thông tin mới nhất về Chung cư và các đơn vị liên quan đến từng người dùng cụ thể.</string>
+    <string name="chinhsachbaomat">Chính sách bảo mật</string>
+    <string name="soanthaovanban">Soạn văn bản tin tức bạn cần thông báo</string>
     <string name="title_notifications">Quản lý</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

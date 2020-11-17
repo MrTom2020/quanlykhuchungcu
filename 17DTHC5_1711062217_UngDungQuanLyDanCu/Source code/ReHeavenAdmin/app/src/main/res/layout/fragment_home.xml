@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:text="TRANG CHỦ"
+            android:text="@string/title_home"
             android:textColor="@color/colorCam"
             android:textSize="30sp"
             android:textStyle="bold"/>
@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@+id/imgSearch"
-                android:hint="Tìm kiếm" />
+                android:hint="@string/timkiem" />
 
             <ImageView
                 android:id="@+id/imgSearch"
